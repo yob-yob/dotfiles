@@ -11,9 +11,9 @@ export ZSH=$HOME/.oh-my-zsh
 autoload -Uz compinit && compinit
 
 # Minimal - Theme Settings
-export MNML_INSERT_CHAR="$"
+export MNML_INSERT_CHAR="›"
 export MNML_PROMPT=(mnml_git mnml_keymap)
-export MNML_RPROMPT=('mnml_cwd 20')
+export MNML_RPROMPT=('mnml_cwd 2')
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
