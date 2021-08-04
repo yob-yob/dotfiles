@@ -23,7 +23,7 @@ brew bundle
 # mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
-pecl install imagick memcached redis swoole
+# pecl install imagick memcached redis swoole
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
@@ -31,23 +31,19 @@ pecl install imagick memcached redis swoole
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Create a Sites directory
-mkdir $HOME/Sites
-
-# Create sites subdirectories
-mkdir $HOME/Sites/copypaste
-mkdir $HOME/Sites/sideline
-mkdir $HOME/Sites/personal
-
 # Clone Github repositories
 ./clone.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 
 # Symlink the Mackup config file to the home directory
-ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
+rm -rf $HOME/.mackup.cfg
+ln -s $HOME/dotfiles/.mackup.cfg $HOME/.mackup.cfg
+
+rm -rf $HOME/.oh-my-zsh/themes/minimal.zsh-theme
+ln -s $HOME/dotfiles/minimal.zsh-theme $HOME/.oh-my-zsh/themes/minimal.zsh-theme
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source .macos
