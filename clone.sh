@@ -16,4 +16,5 @@ git clone git@github.com:StackEngr/Royal.git $SIDELINE/royal
 # Work
 git clone git@gitlab01.copyleft.no:gsean/honning.git $WORK/honning
 git clone git@gitlab01.copyleft.no:gsean/dus-online-academy.git $WORK/dusakademiet
+git clone git@gitlab01.copyleft.no:copypaste/spellemannprisen.git $WORK/spellemannprisen
 
