@@ -11,7 +11,7 @@
         "revision": "dbf32eed03868785cf7b8f2317e16bb53aa0b235"
       },
       "homebrew/core": {
-        "revision": "9afa7d0000a1d9157c9532e36c4273628e7e25f7"
+        "revision": "755e6fda875e8d35eebbd98851330fc8b27d8881"
       },
       "homebrew/services": {
         "revision": "f33dd5180998918b3fdc71605ece21f4d732f682"
@@ -569,6 +569,12 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "mattermost": {
+        "version": "4.7.1",
+        "options": {
+          "full_name": "mattermost"
+        }
       }
     },
     "mas": {
@@ -599,8 +605,8 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "9afa7d0000a1d9157c9532e36c4273628e7e25f7",
-        "CLT": "12.5.1.0.1.1623191612",
+        "Homebrew/homebrew-core": "755e6fda875e8d35eebbd98851330fc8b27d8881",
+        "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.5.1"
       }

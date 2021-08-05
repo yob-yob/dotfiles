@@ -33,6 +33,9 @@ cask "raycast"
 cask "sequel-ace"
 cask "skype"
 cask "visual-studio-code"
+cask "mattermost"
+cask "vlc"
+cask "spotify"
 
 # Mac App Store
 mas "Bitwarden", id: 1352778147
