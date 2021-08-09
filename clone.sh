@@ -25,4 +25,5 @@ git clone git@github.com:StackEngr/Royal.git $SIDELINE/royal 2> /dev/null || ech
 git clone git@gitlab01.copyleft.no:gsean/honning.git $WORK/honning 2> /dev/null || echo "honning project repository already exists"
 git clone git@gitlab01.copyleft.no:gsean/dus-online-academy.git $WORK/dusakademiet 2> /dev/null || echo "dusakademiet project repository already exists"
 git clone git@gitlab01.copyleft.no:copypaste/spellemannprisen.git $WORK/spellemannprisen 2> /dev/null || echo "spellemannprisen project repository already exists"
+git clone git@gitlab01.copyleft.no:ringo/stemcell.git $WORK/stamcelleklinikken 2> /dev/null || echo "stamcelleklinikken project repository already exists"
 

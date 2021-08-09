@@ -1,12 +1,9 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "shivammathur/php"
-
-# Binaries
 brew "cask"
 brew "composer"
 brew "curl"
@@ -24,20 +21,17 @@ brew "wget"
 brew "yarn"
 brew "zsh-autosuggestions"
 brew "shivammathur/php/php@8.1"
-
-# Casks
-cask "docker"
 cask "font-fira-code"
+cask "google-chrome"
 cask "insomnia"
+cask "mattermost"
 cask "raycast"
 cask "sequel-ace"
 cask "skype"
-cask "visual-studio-code"
-cask "mattermost"
-cask "vlc"
 cask "spotify"
-
-# Mac App Store
+cask "transmission"
+cask "visual-studio-code"
+cask "vlc"
 mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 409183694
 mas "Messenger", id: 1480068668
