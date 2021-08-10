@@ -109,3 +109,9 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# functions
+
+function env_update() {
+    sed -i '' -e "/$1/s/=.*/=$2/g" .env
+}
