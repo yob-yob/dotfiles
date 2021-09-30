@@ -7,6 +7,9 @@ export DOTFILES=$HOME/.dotfiles
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Path to Volta Installation
+export VOLTA_HOME="$HOME/.volta"
+
 # Enable completions
 autoload -Uz compinit && compinit
 
@@ -82,6 +85,8 @@ ZSH_CUSTOM=$DOTFILES
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+source $HOME/.cargo/env
 
 # User configuration
 
