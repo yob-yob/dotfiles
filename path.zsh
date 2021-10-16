@@ -8,11 +8,15 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="$HOME/.node/bin:$PATH"
 
 # Use project specific binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
+export PATH="node_modules/.bin:$PATH"
+
+# Use Composer Project Binaries
+export PATH="vendor/bin:$PATH"
 
 export PATH="/opt/homebrew/bin:$PATH"
 
 export PATH="/opt/homebrew/sbin:$PATH"
+
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
