@@ -112,6 +112,9 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Exports
+export PHP_CS_FIXER_IGNORE_ENV=1
+
 # functions
 
 function env_update() {
