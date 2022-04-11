@@ -30,17 +30,11 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Set default MySQL root password and auth type
-# mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
-
-# Install PHP extensions with PECL
-# pecl install imagick memcached redis swoole
-
-# Install global Composer packages
-composer global require laravel/installer laravel/valet beyondcode/expose
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
+# Setup Devilbox (See ./Environments/devilbox/.env)
+# Where should we put devilbox?
+# Symlink Devilbox .env
+# Where should we put the HTTPD Folder (Projects folder)?
+# Where should we put the Backups Folder?
 
 # Clone Github repositories
 ./clone.sh
