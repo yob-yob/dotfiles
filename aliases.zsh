@@ -6,11 +6,15 @@ alias c="clear"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
+alias devilbox="cd $HOME/Services/devilbox"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
 alias work="sites && cd copypaste/"
 alias sideline="sites && cd sideline/"
 alias personal="sites && cd personal/"
+
+# Devilbox 
+alias boxssh="devilbox && ./shell.sh"
 
 # Laravel
 alias a="php artisan"
